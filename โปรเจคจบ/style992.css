@@ -1,0 +1,56 @@
+body {
+  font-family: 'Kanit', sans-serif;
+  background: #fff4f4; /* พื้นหลังชมพูแดงอ่อน */
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff4d4d; /* สีแดงสด */
+  text-shadow: 2px 2px #ffd6d6; /* เงาแดงอ่อน */
+  margin-bottom: 30px;
+}
+
+.table-container {
+  width: 100%;
+  max-width: 900px;
+  overflow-x: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 120, 120, 0.3); /* เงาแดง */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #ffe5e5; /* พื้นหลังหัวตารางแดงอ่อน */
+  color: crimson;
+  padding: 12px;
+  text-align: center;
+  font-size: 20px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #f4baba; /* เส้นล่างแดงอ่อน */
+  font-size: 18px;
+  color: #555;
+}
+
+tr:nth-child(even) {
+  background-color: #fff0f0; /* แถบสลับแดงอ่อน */
+}
+
+tr:hover {
+  background-color: #ffecec; /* สี hover แดงอ่อนมาก */
+  transition: background-color 0.3s ease;
+}
